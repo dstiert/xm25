@@ -6,6 +6,12 @@ class CfgPatches {
 		requiredAddons[] = {"A3_Weapons_F"};
 	};
 };
+
+class Extended_PostInit_EventHandlers {
+	class XM25_PostInit {
+		init = "null = execVM '\ATA_xm25\scripts\ATA_Hud_Start.sqf'";
+	};
+};
 	
 class CfgAmmo {
 	class G_40mm_HE;
